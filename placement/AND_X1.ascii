@@ -1,0 +1,1262 @@
+HEADER 5;
+BGNLIB;
+ LASTMOD {5-17-2016:1:5};
+ LASTACC {5-17-2016:1:5};
+LIBNAME Ours;
+UNITS;
+ USERUNITS 1.000000e-03;
+ PHYSUNITS 1.000000e-09;
+
+BGNSTR;
+ CREATION {5-17-2016:1:5};
+ LASTMOD {5-17-2016:1:5};
+STRNAME AND2_X1;
+
+BOUNDARY;
+LAYER 0;
+DATATYPE 0;
+XY 5;
+ X: -58;		 Y: 384;
+ X: 442;		 Y: 384;
+ X: 442;		 Y: 868;
+ X: -58;		 Y: 868;
+ X: -58;		 Y: 384;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 6;
+DATATYPE 0;
+XY 5;
+ X: -10;		 Y: 384;
+ X: 394;		 Y: 384;
+ X: 394;		 Y: 818;
+ X: -10;		 Y: 818;
+ X: -10;		 Y: 384;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 5;
+DATATYPE 0;
+XY 5;
+ X: -10;		 Y: 384;
+ X: 394;		 Y: 384;
+ X: 394;		 Y: -50;
+ X: -10;		 Y: -50;
+ X: -10;		 Y: 384;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 22;		 Y: -20;
+ X: 22;		 Y: 788;
+ X: 42;		 Y: 788;
+ X: 42;		 Y: -20;
+ X: 22;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 86;		 Y: -20;
+ X: 86;		 Y: 788;
+ X: 106;		 Y: 788;
+ X: 106;		 Y: -20;
+ X: 86;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 150;		 Y: -20;
+ X: 150;		 Y: 788;
+ X: 170;		 Y: 788;
+ X: 170;		 Y: -20;
+ X: 150;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 214;		 Y: -20;
+ X: 214;		 Y: 788;
+ X: 234;		 Y: 788;
+ X: 234;		 Y: -20;
+ X: 214;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 278;		 Y: -20;
+ X: 278;		 Y: 788;
+ X: 298;		 Y: 788;
+ X: 298;		 Y: -20;
+ X: 278;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 10;
+DATATYPE 0;
+XY 5;
+ X: 342;		 Y: -20;
+ X: 342;		 Y: 788;
+ X: 362;		 Y: 788;
+ X: 362;		 Y: -20;
+ X: 342;		 Y: -20;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 1;
+DATATYPE 0;
+XY 9;
+ X: 48;		 Y: 720;
+ X: 96;		 Y: 720;
+ X: 160;		 Y: 720;
+ X: 208;		 Y: 720;
+ X: 208;		 Y: 440;
+ X: 160;		 Y: 440;
+ X: 96;		 Y: 440;
+ X: 48;		 Y: 440;
+ X: 48;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 1;
+DATATYPE 0;
+XY 7;
+ X: 240;		 Y: 720;
+ X: 288;		 Y: 720;
+ X: 336;		 Y: 720;
+ X: 336;		 Y: 440;
+ X: 288;		 Y: 440;
+ X: 240;		 Y: 440;
+ X: 240;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 1;
+DATATYPE 0;
+XY 9;
+ X: 48;		 Y: 40;
+ X: 96;		 Y: 40;
+ X: 160;		 Y: 40;
+ X: 208;		 Y: 40;
+ X: 208;		 Y: 320;
+ X: 160;		 Y: 320;
+ X: 96;		 Y: 320;
+ X: 48;		 Y: 320;
+ X: 48;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 1;
+DATATYPE 0;
+XY 7;
+ X: 240;		 Y: 40;
+ X: 288;		 Y: 40;
+ X: 336;		 Y: 40;
+ X: 336;		 Y: 320;
+ X: 288;		 Y: 320;
+ X: 240;		 Y: 320;
+ X: 240;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 720;
+ X: 78;		 Y: 720;
+ X: 78;		 Y: 440;
+ X: 50;		 Y: 440;
+ X: 50;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 114;		 Y: 720;
+ X: 142;		 Y: 720;
+ X: 142;		 Y: 440;
+ X: 114;		 Y: 440;
+ X: 114;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 720;
+ X: 206;		 Y: 720;
+ X: 206;		 Y: 440;
+ X: 178;		 Y: 440;
+ X: 178;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 720;
+ X: 270;		 Y: 720;
+ X: 270;		 Y: 440;
+ X: 242;		 Y: 440;
+ X: 242;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 306;		 Y: 720;
+ X: 334;		 Y: 720;
+ X: 334;		 Y: 440;
+ X: 306;		 Y: 440;
+ X: 306;		 Y: 720;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 40;
+ X: 78;		 Y: 40;
+ X: 78;		 Y: 320;
+ X: 50;		 Y: 320;
+ X: 50;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 114;		 Y: 40;
+ X: 142;		 Y: 40;
+ X: 142;		 Y: 320;
+ X: 114;		 Y: 320;
+ X: 114;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 40;
+ X: 206;		 Y: 40;
+ X: 206;		 Y: 320;
+ X: 178;		 Y: 320;
+ X: 178;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 40;
+ X: 270;		 Y: 40;
+ X: 270;		 Y: 320;
+ X: 242;		 Y: 320;
+ X: 242;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 11;
+DATATYPE 0;
+XY 5;
+ X: 306;		 Y: 40;
+ X: 334;		 Y: 40;
+ X: 334;		 Y: 320;
+ X: 306;		 Y: 320;
+ X: 306;		 Y: 40;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 114;		 Y: 658;
+ X: 142;		 Y: 658;
+ X: 142;		 Y: 686;
+ X: 114;		 Y: 686;
+ X: 114;		 Y: 658;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 82;
+ X: 206;		 Y: 82;
+ X: 206;		 Y: 110;
+ X: 178;		 Y: 110;
+ X: 178;		 Y: 82;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 338;
+ X: 270;		 Y: 338;
+ X: 270;		 Y: 366;
+ X: 242;		 Y: 366;
+ X: 242;		 Y: 338;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 116;		 Y: 706;
+ X: 140;		 Y: 706;
+ X: 140;		 Y: 638;
+ X: 116;		 Y: 638;
+ X: 116;		 Y: 706;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 180;		 Y: 130;
+ X: 204;		 Y: 130;
+ X: 204;		 Y: 62;
+ X: 180;		 Y: 62;
+ X: 180;		 Y: 130;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 200;		 Y: 374;
+ X: 268;		 Y: 374;
+ X: 268;		 Y: 330;
+ X: 200;		 Y: 330;
+ X: 200;		 Y: 374;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 566;
+ X: 76;		 Y: 566;
+ X: 76;		 Y: 796;
+ X: 52;		 Y: 796;
+ X: 52;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 180;		 Y: 566;
+ X: 204;		 Y: 566;
+ X: 204;		 Y: 796;
+ X: 180;		 Y: 796;
+ X: 180;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 566;
+ X: 268;		 Y: 566;
+ X: 268;		 Y: 796;
+ X: 244;		 Y: 796;
+ X: 244;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 194;
+ X: 76;		 Y: 194;
+ X: 76;		 Y: -28;
+ X: 52;		 Y: -28;
+ X: 52;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 194;
+ X: 268;		 Y: 194;
+ X: 268;		 Y: -28;
+ X: 244;		 Y: -28;
+ X: 244;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 13;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 374;
+ X: 300;		 Y: 374;
+ X: 300;		 Y: 330;
+ X: 244;		 Y: 330;
+ X: 244;		 Y: 374;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 16;
+DATATYPE 0;
+XY 25;
+ X: 142;		 Y: 686;
+ X: 82;		 Y: 686;
+ X: 82;		 Y: 658;
+ X: 142;		 Y: 658;
+ X: 242;		 Y: 658;
+ X: 242;		 Y: 622;
+ X: 242;		 Y: 594;
+ X: 242;		 Y: 174;
+ X: 242;		 Y: 146;
+ X: 242;		 Y: 110;
+ X: 206;		 Y: 110;
+ X: 146;		 Y: 110;
+ X: 146;		 Y: 82;
+ X: 206;		 Y: 82;
+ X: 242;		 Y: 82;
+ X: 270;		 Y: 82;
+ X: 270;		 Y: 110;
+ X: 270;		 Y: 146;
+ X: 270;		 Y: 174;
+ X: 270;		 Y: 594;
+ X: 270;		 Y: 622;
+ X: 270;		 Y: 658;
+ X: 270;		 Y: 686;
+ X: 242;		 Y: 686;
+ X: 142;		 Y: 686;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 306;		 Y: 594;
+ X: 334;		 Y: 594;
+ X: 334;		 Y: 622;
+ X: 306;		 Y: 622;
+ X: 306;		 Y: 594;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 306;		 Y: 146;
+ X: 334;		 Y: 146;
+ X: 334;		 Y: 174;
+ X: 306;		 Y: 174;
+ X: 306;		 Y: 146;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 308;		 Y: 642;
+ X: 332;		 Y: 642;
+ X: 332;		 Y: 574;
+ X: 308;		 Y: 574;
+ X: 308;		 Y: 642;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 308;		 Y: 194;
+ X: 332;		 Y: 194;
+ X: 332;		 Y: 126;
+ X: 308;		 Y: 126;
+ X: 308;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 566;
+ X: 76;		 Y: 566;
+ X: 76;		 Y: 796;
+ X: 52;		 Y: 796;
+ X: 52;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 180;		 Y: 566;
+ X: 204;		 Y: 566;
+ X: 204;		 Y: 796;
+ X: 180;		 Y: 796;
+ X: 180;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 566;
+ X: 268;		 Y: 566;
+ X: 268;		 Y: 796;
+ X: 244;		 Y: 796;
+ X: 244;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 194;
+ X: 76;		 Y: 194;
+ X: 76;		 Y: -28;
+ X: 52;		 Y: -28;
+ X: 52;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 194;
+ X: 268;		 Y: 194;
+ X: 268;		 Y: -28;
+ X: 244;		 Y: -28;
+ X: 244;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 15;
+DATATYPE 0;
+XY 9;
+ X: 334;		 Y: 594;
+ X: 334;		 Y: 654;
+ X: 306;		 Y: 654;
+ X: 306;		 Y: 594;
+ X: 306;		 Y: 174;
+ X: 306;		 Y: 114;
+ X: 334;		 Y: 114;
+ X: 334;		 Y: 174;
+ X: 334;		 Y: 594;
+ENDEL;
+
+TEXT;
+LAYER 15;
+TEXTTYPE 20;
+PRESENTATION 0,1,1;
+PATHTYPE 0;
+STRANS 0,0,0;
+MAG 0.015;
+XY 1;
+ X: 320;		 Y: 608;
+STRING Z;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 69;		 Y: 338;
+ X: 97;		 Y: 338;
+ X: 97;		 Y: 366;
+ X: 69;		 Y: 366;
+ X: 69;		 Y: 338;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 566;
+ X: 76;		 Y: 566;
+ X: 76;		 Y: 796;
+ X: 52;		 Y: 796;
+ X: 52;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 180;		 Y: 566;
+ X: 204;		 Y: 566;
+ X: 204;		 Y: 796;
+ X: 180;		 Y: 796;
+ X: 180;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 566;
+ X: 268;		 Y: 566;
+ X: 268;		 Y: 796;
+ X: 244;		 Y: 796;
+ X: 244;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 194;
+ X: 76;		 Y: 194;
+ X: 76;		 Y: -28;
+ X: 52;		 Y: -28;
+ X: 52;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 194;
+ X: 268;		 Y: 194;
+ X: 268;		 Y: -28;
+ X: 244;		 Y: -28;
+ X: 244;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 13;
+DATATYPE 0;
+XY 5;
+ X: 68;		 Y: 374;
+ X: 124;		 Y: 374;
+ X: 124;		 Y: 330;
+ X: 68;		 Y: 330;
+ X: 68;		 Y: 374;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 15;
+DATATYPE 0;
+XY 13;
+ X: 97;		 Y: 554;
+ X: 97;		 Y: 614;
+ X: 69;		 Y: 614;
+ X: 69;		 Y: 554;
+ X: 69;		 Y: 214;
+ X: 69;		 Y: 186;
+ X: 69;		 Y: 174;
+ X: 69;		 Y: 114;
+ X: 97;		 Y: 114;
+ X: 97;		 Y: 174;
+ X: 97;		 Y: 186;
+ X: 97;		 Y: 214;
+ X: 97;		 Y: 554;
+ENDEL;
+
+TEXT;
+LAYER 15;
+TEXTTYPE 20;
+PRESENTATION 0,1,1;
+PATHTYPE 0;
+STRANS 0,0,0;
+MAG 0.015;
+XY 1;
+ X: 83;		 Y: 568;
+STRING A2;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 138;		 Y: 338;
+ X: 166;		 Y: 338;
+ X: 166;		 Y: 366;
+ X: 138;		 Y: 366;
+ X: 138;		 Y: 338;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 566;
+ X: 76;		 Y: 566;
+ X: 76;		 Y: 796;
+ X: 52;		 Y: 796;
+ X: 52;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 180;		 Y: 566;
+ X: 204;		 Y: 566;
+ X: 204;		 Y: 796;
+ X: 180;		 Y: 796;
+ X: 180;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 566;
+ X: 268;		 Y: 566;
+ X: 268;		 Y: 796;
+ X: 244;		 Y: 796;
+ X: 244;		 Y: 566;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 52;		 Y: 194;
+ X: 76;		 Y: 194;
+ X: 76;		 Y: -28;
+ X: 52;		 Y: -28;
+ X: 52;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 12;
+DATATYPE 0;
+XY 5;
+ X: 244;		 Y: 194;
+ X: 268;		 Y: 194;
+ X: 268;		 Y: -28;
+ X: 244;		 Y: -28;
+ X: 244;		 Y: 194;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 13;
+DATATYPE 0;
+XY 5;
+ X: 132;		 Y: 374;
+ X: 188;		 Y: 374;
+ X: 188;		 Y: 330;
+ X: 132;		 Y: 330;
+ X: 132;		 Y: 374;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 16;
+DATATYPE 0;
+XY 9;
+ X: 166;		 Y: 530;
+ X: 166;		 Y: 590;
+ X: 138;		 Y: 590;
+ X: 138;		 Y: 530;
+ X: 138;		 Y: 238;
+ X: 138;		 Y: 178;
+ X: 166;		 Y: 178;
+ X: 166;		 Y: 238;
+ X: 166;		 Y: 530;
+ENDEL;
+
+TEXT;
+LAYER 16;
+TEXTTYPE 20;
+PRESENTATION 0,1,1;
+PATHTYPE 0;
+STRANS 0,0,0;
+MAG 0.015;
+XY 1;
+ X: 152;		 Y: 544;
+STRING A1;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 15;
+DATATYPE 0;
+XY 5;
+ X: 0;		 Y: 740;
+ X: 384;		 Y: 740;
+ X: 384;		 Y: 796;
+ X: 0;		 Y: 796;
+ X: 0;		 Y: 740;
+ENDEL;
+
+TEXT;
+LAYER 15;
+TEXTTYPE 20;
+PRESENTATION 0,1,1;
+PATHTYPE 0;
+STRANS 0,0,0;
+MAG 0.015;
+XY 1;
+ X: 192;		 Y: 768;
+STRING VDD;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 768;
+ X: 78;		 Y: 768;
+ X: 78;		 Y: 740;
+ X: 50;		 Y: 740;
+ X: 50;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 178;		 Y: 768;
+ X: 206;		 Y: 768;
+ X: 206;		 Y: 740;
+ X: 178;		 Y: 740;
+ X: 178;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 768;
+ X: 270;		 Y: 768;
+ X: 270;		 Y: 740;
+ X: 242;		 Y: 740;
+ X: 242;		 Y: 768;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 50;		 Y: 0;
+ X: 78;		 Y: 0;
+ X: 78;		 Y: 28;
+ X: 50;		 Y: 28;
+ X: 50;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 14;
+DATATYPE 0;
+XY 5;
+ X: 242;		 Y: 0;
+ X: 270;		 Y: 0;
+ X: 270;		 Y: 28;
+ X: 242;		 Y: 28;
+ X: 242;		 Y: 0;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 15;
+DATATYPE 0;
+XY 5;
+ X: 0;		 Y: 28;
+ X: 384;		 Y: 28;
+ X: 384;		 Y: -28;
+ X: 0;		 Y: -28;
+ X: 0;		 Y: 28;
+ENDEL;
+
+TEXT;
+LAYER 15;
+TEXTTYPE 20;
+PRESENTATION 0,1,1;
+PATHTYPE 0;
+STRANS 0,0,0;
+MAG 0.015;
+XY 1;
+ X: 192;		 Y: 0;
+STRING VSS;
+ENDEL;
+
+
+BOUNDARY;
+LAYER 200;
+DATATYPE 0;
+XY 5;
+ X: 0;		 Y: 0;
+ X: 384;		 Y: 0;
+ X: 384;		 Y: 768;
+ X: 0;		 Y: 768;
+ X: 0;		 Y: 0;
+ENDEL;
+
+ENDSTR;

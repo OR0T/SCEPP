@@ -1,0 +1,136 @@
+Name : AND2_X1
+PMOS : Z VDD Z_neg VDD
+NMOS : Z VSS net_0 Z_neg
+POLY : Z_neg A2 A1
+
+Name : AND3_X1
+PMOS : Z VDD Z_neg VDD Z_neg
+NMOS : Z VSS net_1 net_0 Z_neg
+POLY : Z_neg A3 A2 A1
+
+Name : AND4_X1
+PMOS : Z VDD Z_neg VDD Z_neg VDD
+NMOS : Z VSS net_2 net_1 net_0 Z_neg
+POLY : Z_neg A4 A3 A2 A1
+
+Name : AOI21_X1
+PMOS : VDD net_1 ZN net_1
+NMOS : ZN VSS net_0 ZN
+POLY : B A2 A1
+
+Name : AOI22_X1
+PMOS : net_2 ZN net_2 VDD net_2
+NMOS : ZN net_0 VSS net_1 ZN
+POLY : A1 A2 B2 B1
+
+Name : BUF_X1
+PMOS : Z VDD Z_neg
+NMOS : Z VSS Z_neg
+POLY : Z_neg I
+
+Name : CLKBUF_X1
+PMOS : Z VDD Z_neg
+NMOS : Z VSS Z_neg
+POLY : Z_neg I
+
+Name : DFFRNQ_X1
+There doesn't exist an Euler path.
+
+Name : DFFSNQ_X1
+There doesn't exist an Euler path.
+
+Name : FA_X1
+PMOS : S VDD CO net1 net7 net19 VDD net1 VDD net3 VDD net3 net9 net29 net31 VDD
+NMOS : S VSS CO net5 net7 net36 VSS net5 VSS net42 VSS net42 net9 net47 net49 VSS
+POLY : net9 net7 dummy CI B A B A A B CI net7 CI B A
+
+Name : HA_X1
+PMOS : S VDD NCO VDD VDD net_2 NS VDD CO
+NMOS : S VSS net_0 NCO net_1 NS net_1 VSS CO
+POLY : NS A B dummy B A NCO NCO
+
+Name : INV_X1
+PMOS : VDD ZN
+NMOS : VSS ZN
+POLY : I
+
+Name : LHQ_X1
+There doesn't exist an Euler path.
+
+Name : MUX2_X1
+There doesn't exist an Euler path.
+
+Name : NAND2_X1
+PMOS : VDD ZN VDD
+NMOS : ZN net_0 VSS
+POLY : A1 A2
+
+Name : NAND3_X1
+PMOS : ZN VDD ZN VDD
+NMOS : ZN net_0 net_1 VSS
+POLY : A1 A2 A3
+
+Name : NAND4_X1
+PMOS : VDD ZN VDD ZN VDD
+NMOS : ZN net_0 net_1 net_2 VSS
+POLY : A1 A2 A3 A4
+
+Name : NOR2_X1
+PMOS : ZN net_0 VDD
+NMOS : ZN VSS ZN
+POLY : A1 A2
+
+Name : NOR3_X1
+PMOS : ZN net_0 net_1 VDD
+NMOS : ZN VSS ZN VSS
+POLY : A1 A2 A3
+
+Name : NOR4_X1
+PMOS : ZN net_0 net_1 net_2 VDD
+NMOS : ZN VSS ZN VSS ZN
+POLY : A1 A2 A3 A4
+
+Name : OAI21_X1
+PMOS : VDD net_1 ZN VDD
+NMOS : net_0 ZN net_0 VSS
+POLY : A2 A1 B
+
+Name : OAI22_X1
+PMOS : VDD net_2 ZN net_1 VDD
+NMOS : net_0 VSS net_0 ZN net_0
+POLY : B2 B1 A1 A2
+
+Name : OR2_X1
+PMOS : Z VDD net_0 Z_neg
+NMOS : Z VSS Z_neg VSS
+POLY : Z_neg A2 A1
+
+Name : OR3_X1
+PMOS : Z VDD net_1 net_0 Z_neg
+NMOS : Z VSS Z_neg VSS Z_neg
+POLY : Z_neg A3 A2 A1
+
+Name : OR4_X1
+PMOS : Z VDD net_2 net_1 net_0 Z_neg
+NMOS : Z VSS Z_neg VSS Z_neg VSS
+POLY : Z_neg A4 A3 A2 A1
+
+Name : SDFFRNQ_X1
+There doesn't exist an Euler path.
+
+Name : SDFFSNQ_X1
+There doesn't exist an Euler path.
+
+Name : TBUF_X1
+There doesn't exist an Euler path.
+
+Name : XNOR2_X1
+PMOS : ZN VDD net_0 x2 VDD net_2 x1 net_2
+NMOS : ZN VSS net_1 x1 x1 VSS x2 VSS
+POLY : x1 A2 A1 dummy x2 A2 A1
+
+Name : XOR2_X1
+PMOS : net_1 Z net_1 VDD net_2 x1
+NMOS : VSS net_0 Z VSS x1 VSS
+POLY : A2 A1 x1 A2 A1
+
